@@ -157,10 +157,10 @@ const contactPage = function() {
     // middleDivision
     middleDivision.style.backgroundImage = "url(\"pictures/contactPage.jpg\")"
     middleDivision.style.height = "500px"
-    middleDivision.style.width = "1600px"
+    middleDivision.style.width = "100vw"
     middleDivision.style.margin = "50px 0px 0px -800px"
     middleDivision.style.border = "1px solid black"
-    middleDivision.style.backgroundSize = "1600px 500px"
+    middleDivision.style.backgroundSize = "100% 500px"
     middleDivision.style.backgroundRepeat = "no-repeat"
 
 

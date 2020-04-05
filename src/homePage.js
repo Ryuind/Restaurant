@@ -61,8 +61,7 @@ const homePage = function() {
     document.body.style.position = "absolute"
     document.body.style.backgroundImage = "url(\"pictures/homePage.jpg\")"
     document.body.style.backgroundRepeat = "no-repeat"
-    document.body.style.backgroundSize = "1600px"
-    document.body.style.width = "100%"
+    document.body.style.backgroundSize = "100% 1600px"
     document.body.style.top = "0"
     document.body.style.left = "0"
     // div class="container"
@@ -72,16 +71,15 @@ const homePage = function() {
     container.style.color = "aliceblue"
     // h1
     hOne.style.margin = "300px 0px 0px -100px"
-    hOne.style.display = "flex"
     hOne.style.fontSize = "4rem"
     hOne.style.opacity = "0.8"
     // para 
-    para.style.display = "flex"
+    
     para.style.fontStyle = "italic"
     // div class="tabButtons"
     tabButtons.style.margin = "0px 0px 0px 200px"
     tabButtons.style.alignItems = "flex-end"
-    tabButtons.style.display = "flex"
+    
     // homePageButton
     homePageButton.style.backgroundColor = "black"
     homePageButton.style.color = "white"
